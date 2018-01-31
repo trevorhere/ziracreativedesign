@@ -1,0 +1,302 @@
+html,body{
+  width: 100%;
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header-section {
+  width:100%;
+  height: 95%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/mt-timp-snow.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 10px 6px -6px #777;
+  margin-bottom: 40px ;
+}
+
+#title{
+  font-size: 64px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  color:white;
+}
+.effect1{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.top-shadow{
+  -webkit-box-shadow: 0 -10px 6px -6px #777;
+     -moz-box-shadow: 0 -10px 6px -6px #777;
+          box-shadow: 0 -10px 6px -6px #777;
+}
+
+.only-bottom-shadow{
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+
+.bottom-shadow{
+  box-shadow: 0 6px 6px #777, 0 -6px 6px #777;
+}
+
+.header-section .header-icon {
+  font-weight: 100;
+  font-size: 48px;
+  color: white;
+}
+
+.header-section .header-icon:hover {
+  color: grey;
+}-mates
+
+.header-section h1 {
+  font-size: 64px;
+  font-weight: 100;
+  letter-spacing: 5px;
+  color:white;
+}
+
+.about-section{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  min-height: 50%;
+
+}
+
+.about-section h1{
+  padding-top:5%;
+  color: black;
+  font-weight: 100;
+}
+
+.about-section h3{
+  padding: 5% 10%;
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+
+.offset-color{
+  background-color: rgba(0, 0, 0,0.8);
+  background-color: #1c1d26;
+  color:white;
+  background: rgba(0, 0, 0,0.8);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.feature-section {
+  padding:5%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 50%
+}
+
+.feature-section h1 {
+  padding:5%;
+  color: white;
+  font-weight: 100;
+
+}
+
+.feature-section .card{
+  margin: 2% auto;
+  align-self: center;
+  color: black;
+  min-width:100%!important;
+  border: none;
+
+}
+
+
+
+.feature-section .card img {
+  width:100%;
+  padding: 0%;
+}
+
+.effect2 {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.table.no-border tr td, .table.no-border tr th {
+  border-width: 0;
+}
+
+.review-section{
+  min-height: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items:center;
+}
+
+.review-section hr {
+  width: 50%;
+}
+
+.review-section h1 {
+  padding-top:5%;
+  color: black;
+  font-weight: 100;
+
+}
+#carouselExampleIndicators l1{
+  background-color: black!important;
+}
+
+.carousel-indicators .active l1{
+  background-color: grey!important;
+}
+
+.carousel-inner {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items:center;
+  margin: 0 auto;
+}
+.carousel-box {
+  align-self: center;
+  width: 60%;
+  text-align: center;
+  height: 400px;
+  margin: 5% auto;
+}
+
+.carousel-box h3 {
+  padding: 5% 10%;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 300;
+  color: black;
+}
+.carousel-box h4 {
+
+}
+
+
+.contact-section {
+  margin-top: 10px;
+  width:100%;
+  min-height: 50%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/stars.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 40px ;
+}
+
+
+.contact-section h1{
+  padding-top:5%;
+  color: white;
+  font-weight: 100;
+}
+
+#form {
+  position: relative;
+  width: 75%;
+  margin: 50px auto 100px auto;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.form{
+  display: block;
+}
+
+input {
+
+  font-size: 15px;
+  width: 75%;
+  height: 70px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: white;
+  border: solid 1px #b3aca7;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input::placeholder, textarea::placeholder {
+  color:white;
+  font-weight: 300;
+}
+
+input:hover, textarea:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  background: #1c1d26;
+}
+
+textarea {
+  width: 75%;
+  height: 200px;
+  max-height: 200px;
+  padding: 15px;
+  background: transparent;
+  outline: none;
+  color:white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 015px;
+  border: solid 1px #b3aca7;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+#submit {
+  width: 75%;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  color: #b3aca7;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px #b3aca7;
+  border-top: none;
+}
+
+.footer-section h3{
+  text-align: center;
+  font-size: 12px;
+  padding-bottom:15px;
+}
+
+.footer-section a {
+  color: black;
+}
+.footer-section a:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+
+
+
+

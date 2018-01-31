@@ -1,0 +1,19 @@
+.btn.sharp{
+  border-radius: 0;
+}
+.btn.outline{
+  background: #e6e6e6;
+  padding: 10px 30px;
+  border:none;
+	color: black;
+}
+
+a .btn {
+  font-weight: 100;
+}
+
+.btn.outline:hover{
+  background-color:black;
+  color: white;
+}
+
