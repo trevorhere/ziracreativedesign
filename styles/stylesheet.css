@@ -137,7 +137,12 @@ html, body{
 
 }
 
-
+.card-title{
+  padding-top:15px;
+}
+.card-body{
+ padding:20px;
+}
 
 .feature-section .card img {
   width:100%;
