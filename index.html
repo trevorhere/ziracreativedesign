@@ -13,9 +13,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./styles/stylesheet.css">
   <link rel="stylesheet" href="./styles/button.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./bootstrap/js/bootstrap.min.js"></script>
   <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -23,6 +24,26 @@
   <title>Zira Creative</title>
 </head>
 <body>
+
+
+<div class="navnav">
+    <div class="row">
+        <ul>
+          <li>
+            <a href=""></a>
+          </li>
+          <li>
+            <a href=""><!--JOBS --></a>
+          </li>
+          <li>
+            <a href="#contact-section"><!-- Contact --></a>
+          </li>
+        </ul>
+      </div>
+</div>
+
+
+
 
     <section id="header-section" class="header-section effect1">
         <div class="container-fluid">
@@ -41,20 +62,24 @@
       <section id="about-section" class="about-section">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h1>About Zira</h1>
+              <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                  <div class="about-img bottom-shadow">
+                    <img src="./img/sunny-coder.jpg" alt="">
+                  </div>
+              </div>
+              <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-6 ">
+                <div class="vertical-center">
+                  <div>
+                      <h1>About Zira</h1>
+                      <h3>Our mission at Zira Creative is simple; we put our clients first by delivering top notch products. We don't leave loose ends untied, if there's an issue with the product, we fix it. Period.
+                         Our sites are tailor made for our clients. We love to learn and focus on utilizing the best technologies available on each project. At the end of the day, working with us means you'll end up with a beautiful product,
+                         guaranteed to meet your specifications.</h3>
+                  </div>
                 </div>
             </div>
-            <div class="row">
-              <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                  <h3>Our mission at Zira Creative is simple; we put our clients first by delivering top notch products. We don't leave loose ends untied, if there's an issue with the product, we fix it. Period.
-                     Our sites are tailor made for our clients. We love to learn and focus on utilizing the best technologies available on each project. At the end of the day, working with us means you'll end up with a beautiful product,
-                     guaranteed to meet your specifications.</h3>
-              </div>
             </div>
         </div>
       </section>
-
       <!-- feature section -->
       <section class="feature-section offset-color  bottom-shadow">
         <div class="container-fluid">
@@ -95,7 +120,6 @@
           </div>
         </div>
       </section>
-
       <section class="review-section">
         <div class="container-fluid">
           <div class="row">
@@ -132,14 +156,12 @@
                           </div>
                     </div>
                   </div>
-
           </div>
         </div>
-
         </section>
 
         <!-- contact section -->
-      <section class="contact-section bottom-shadow">
+      <section id="contact-section" class="contact-section bottom-shadow">
         <div class="container-fluid">
           <div class="row">
               <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -158,12 +180,6 @@
           </div>
         </div>
       </section>
-
-
-
-
-
-
       <section class="footer-section ">
           <div class="container-fluid">
             <div class="row">
@@ -174,35 +190,29 @@
           </div>
         </section>
 
+        <div class="container">
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
 
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <p> Website coming soon!</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
 
-
-<div class="container">
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+          </div>
         </div>
-        <div class="modal-body">
-          <p> Website coming soon!</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-</div>
 
 <script src="./scripts/scripts.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" integrity="sha384-feJI7QwhOS+hwpX2zkaeJQjeiwlhOP+SdQDqhgvvo1DsjtiSQByFdThsxO669S2D" crossorigin="anonymous"></script>
-
 </body>
 </html>
 
